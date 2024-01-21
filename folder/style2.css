@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&family=Raleway:ital,wght@1,100&display=swap');
+
+
+:root
+{
+--green:green;
+--black:#130f40;
+--light-color:#666
+--box-shadow:0 .5rem 1rem rgba(0,0,0.1);
+--outline: .1rem solid rgba(0,0,0.1);
+}
+
+*
+{
+	font-family: 'Poppins', sans-serif;
+	margin:0;
+	padding:0;
+	box-sizzing:border-box;
+	outline:none;
+	border:none;
+	text-decoration:none;
+	transition:all .7s linear;
+}
+
+.search-box{
+	width: 700px;
+	background-color: #fff;
+	margin: 100px auto 0;
+	border-radius: 5px;
+}
+input{
+	flex: 1;
+	height: 50px;
+	background-color: transparent;
+	border: 0;
+	outline: 0;
+	font-size:14px;
+	color: #333;
+	text-align: center;
+}
+.row{
+	display: flex;
+	align-items: center;
+	padding: 10px 20px;
+}
+body{
+	background-color: #c2ae95
+}
+
+button {
+	background: transparent;
+	border: 0;
+	outline: 0;
+    padding: 12px 12px;
+    margin: 0 5px;
+    cursor: pointer;
+    float: right;
+}
+
+button:hover {
+    background-color: #007bff;
+    color: lightcoral;
+}
+.list-group-item {
+    list-style: none;
+    padding: 0;
+}
+
+.list-group-item li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    cursor: pointer; /* Set the cursor style to pointer */
+}
+
+.list-group-item li:hover {
+    background-color: lightpink; /* Change background color on hover */
+}
+
+.list-group-item li.active {
+    background-color: #007bff;
+    color: lightblue;
+}
+
+.pagination {
+    margin-top: 20px;
+}
+.search-box {
+    margin-bottom: 20px;
+}
+
+.search-box input {
+    padding: 8px;
+    margin-right: 5px;
+}
